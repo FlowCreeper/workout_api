@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "workout-api"
+version = "0.1.0"
+description = ""
+authors = ["FlowCreeper <caiocoutinho2012@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+alembic = "1.11.1"
+annotated-types = "0.5.0"
+anyio = "3.7.1"
+asyncpg = "0.28.0"
+click = "8.1.6"
+fastapi = "0.100.1"
+greenlet = ">=3.0"
+h11 = "0.14.0"
+idna = "3.4"
+mako = "1.2.4"
+markupsafe = "2.1.3"
+pydantic = "2.1.1"
+pydantic-core = "2.4.0"
+sniffio = "1.3.0"
+sqlalchemy = "2.0.19"
+starlette = "0.27.0"
+typing-extensions = "4.7.1"
+uvicorn = "0.23.1"
+pydantic-settings = "2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
